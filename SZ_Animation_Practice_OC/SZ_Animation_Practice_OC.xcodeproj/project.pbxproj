@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A989F23E1FECFA970085CBAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F23D1FECFA970085CBAC /* AppDelegate.m */; };
+		A989F2461FECFA970085CBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A989F2451FECFA970085CBAC /* Assets.xcassets */; };
+		A989F2491FECFA970085CBAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A989F2471FECFA970085CBAC /* LaunchScreen.storyboard */; };
+		A989F24C1FECFA970085CBAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F24B1FECFA970085CBAC /* main.m */; };
+		A989F2561FECFA980085CBAC /* SZ_Animation_Practice_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2551FECFA980085CBAC /* SZ_Animation_Practice_OCTests.m */; };
+		A989F2611FECFA980085CBAC /* SZ_Animation_Practice_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2601FECFA980085CBAC /* SZ_Animation_Practice_OCUITests.m */; };
+		A989F2DE1FECFB9D0085CBAC /* DrawShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F26F1FECFB9C0085CBAC /* DrawShapeViewController.m */; };
+		A989F2DF1FECFB9D0085CBAC /* SimpleShapeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2711FECFB9C0085CBAC /* SimpleShapeAnimationViewController.m */; };
+		A989F2E01FECFB9D0085CBAC /* CASharpLayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2731FECFB9C0085CBAC /* CASharpLayerListViewController.m */; };
+		A989F2E11FECFB9D0085CBAC /* CircleShapeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2741FECFB9C0085CBAC /* CircleShapeAnimationViewController.m */; };
+		A989F2E21FECFB9D0085CBAC /* SinOrCosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2761FECFB9C0085CBAC /* SinOrCosViewController.m */; };
+		A989F2E31FECFB9D0085CBAC /* WeChatEyeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2791FECFB9C0085CBAC /* WeChatEyeView.m */; };
+		A989F2E41FECFB9D0085CBAC /* WeChatEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F27B1FECFB9C0085CBAC /* WeChatEyeViewController.m */; };
+		A989F2E51FECFB9D0085CBAC /* MainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F27D1FECFB9C0085CBAC /* MainListViewController.m */; };
+		A989F2E61FECFB9D0085CBAC /* DynamicBasicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F27F1FECFB9C0085CBAC /* DynamicBasicListViewController.m */; };
+		A989F2E71FECFB9D0085CBAC /* SZGravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2831FECFB9C0085CBAC /* SZGravityViewController.m */; };
+		A989F2E81FECFB9D0085CBAC /* SZComprehensiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2861FECFB9C0085CBAC /* SZComprehensiveViewController.m */; };
+		A989F2E91FECFB9D0085CBAC /* SZSnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2881FECFB9C0085CBAC /* SZSnapViewController.m */; };
+		A989F2EA1FECFB9D0085CBAC /* SZCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F28B1FECFB9C0085CBAC /* SZCollisionViewController.m */; };
+		A989F2EB1FECFB9D0085CBAC /* SZFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F28F1FECFB9C0085CBAC /* SZFieldViewController.m */; };
+		A989F2EC1FECFB9D0085CBAC /* SZSpringsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2921FECFB9C0085CBAC /* SZSpringsViewController.m */; };
+		A989F2ED1FECFB9D0085CBAC /* SZPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2941FECFB9C0085CBAC /* SZPropertyViewController.m */; };
+		A989F2EE1FECFB9D0085CBAC /* SZPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2971FECFB9C0085CBAC /* SZPushViewController.m */; };
+		A989F2EF1FECFB9D0085CBAC /* MenuEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F29B1FECFB9C0085CBAC /* MenuEffectViewController.m */; };
+		A989F2F01FECFB9D0085CBAC /* SZAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F29E1FECFB9C0085CBAC /* SZAttachmentViewController.m */; };
+		A989F2F11FECFB9D0085CBAC /* CoreAnimationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2A11FECFB9C0085CBAC /* CoreAnimationListViewController.m */; };
+		A989F2F21FECFB9D0085CBAC /* SZSpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2A41FECFB9C0085CBAC /* SZSpringAnimationViewController.m */; };
+		A989F2F31FECFB9D0085CBAC /* SZBasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2A61FECFB9C0085CBAC /* SZBasicAnimationViewController.m */; };
+		A989F2F41FECFB9D0085CBAC /* SZKeyFrameAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2AA1FECFB9C0085CBAC /* SZKeyFrameAnimationViewController.m */; };
+		A989F2F51FECFB9D0085CBAC /* SZAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2AC1FECFB9C0085CBAC /* SZAnimationView.m */; };
+		A989F2F61FECFB9D0085CBAC /* SZRectangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2AD1FECFB9C0085CBAC /* SZRectangleLayer.m */; };
+		A989F2F71FECFB9D0085CBAC /* SZCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2AE1FECFB9C0085CBAC /* SZCircleLayer.m */; };
+		A989F2F81FECFB9D0085CBAC /* SZTriangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2AF1FECFB9C0085CBAC /* SZTriangleLayer.m */; };
+		A989F2F91FECFB9D0085CBAC /* SZWaterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2B51FECFB9C0085CBAC /* SZWaterLayer.m */; };
+		A989F2FA1FECFB9D0085CBAC /* SZComplexAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2B71FECFB9C0085CBAC /* SZComplexAnimationViewController.m */; };
+		A989F2FB1FECFB9D0085CBAC /* SZCATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2BA1FECFB9C0085CBAC /* SZCATransitionViewController.m */; };
+		A989F2FC1FECFB9D0085CBAC /* SZCAGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2BE1FECFB9C0085CBAC /* SZCAGroupViewController.m */; };
+		A989F2FD1FECFB9D0085CBAC /* WaveLoadingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2C41FECFB9D0085CBAC /* WaveLoadingListViewController.m */; };
+		A989F2FE1FECFB9D0085CBAC /* WaveLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2C51FECFB9D0085CBAC /* WaveLoadingViewController.m */; };
+		A989F2FF1FECFB9D0085CBAC /* SZWaveLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2C81FECFB9D0085CBAC /* SZWaveLoadingView.m */; };
+		A989F3001FECFB9D0085CBAC /* WaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2C91FECFB9D0085CBAC /* WaveViewController.m */; };
+		A989F3011FECFB9D0085CBAC /* MatchManViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2CA1FECFB9D0085CBAC /* MatchManViewController.m */; };
+		A989F3021FECFB9D0085CBAC /* WaveProgressListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2CD1FECFB9D0085CBAC /* WaveProgressListViewController.m */; };
+		A989F3031FECFB9D0085CBAC /* TieBaLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2CF1FECFB9D0085CBAC /* TieBaLoadingViewController.m */; };
+		A989F3041FECFB9D0085CBAC /* WaveProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2D01FECFB9D0085CBAC /* WaveProgressViewController.m */; };
+		A989F3051FECFB9D0085CBAC /* explain.png in Resources */ = {isa = PBXBuildFile; fileRef = A989F2D51FECFB9D0085CBAC /* explain.png */; };
+		A989F3061FECFB9D0085CBAC /* gift.gif in Resources */ = {isa = PBXBuildFile; fileRef = A989F2D61FECFB9D0085CBAC /* gift.gif */; };
+		A989F3071FECFB9D0085CBAC /* SZTieBaLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2D71FECFB9D0085CBAC /* SZTieBaLoading.m */; };
+		A989F3081FECFB9D0085CBAC /* SZWave.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2DA1FECFB9D0085CBAC /* SZWave.m */; };
+		A989F3091FECFB9D0085CBAC /* SZWaveProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F2DB1FECFB9D0085CBAC /* SZWaveProgress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A989F2521FECFA980085CBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A989F2311FECFA970085CBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A989F2381FECFA970085CBAC;
+			remoteInfo = SZ_Animation_Practice_OC;
+		};
+		A989F25D1FECFA980085CBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A989F2311FECFA970085CBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A989F2381FECFA970085CBAC;
+			remoteInfo = SZ_Animation_Practice_OC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A989F2391FECFA970085CBAC /* SZ_Animation_Practice_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZ_Animation_Practice_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A989F23C1FECFA970085CBAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A989F23D1FECFA970085CBAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A989F2451FECFA970085CBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A989F2481FECFA970085CBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A989F24A1FECFA970085CBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A989F24B1FECFA970085CBAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A989F2511FECFA980085CBAC /* SZ_Animation_Practice_OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZ_Animation_Practice_OCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A989F2551FECFA980085CBAC /* SZ_Animation_Practice_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZ_Animation_Practice_OCTests.m; sourceTree = "<group>"; };
+		A989F2571FECFA980085CBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A989F25C1FECFA980085CBAC /* SZ_Animation_Practice_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZ_Animation_Practice_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A989F2601FECFA980085CBAC /* SZ_Animation_Practice_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZ_Animation_Practice_OCUITests.m; sourceTree = "<group>"; };
+		A989F2621FECFA980085CBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A989F26F1FECFB9C0085CBAC /* DrawShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawShapeViewController.m; sourceTree = "<group>"; };
+		A989F2701FECFB9C0085CBAC /* SinOrCosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinOrCosViewController.h; sourceTree = "<group>"; };
+		A989F2711FECFB9C0085CBAC /* SimpleShapeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleShapeAnimationViewController.m; sourceTree = "<group>"; };
+		A989F2721FECFB9C0085CBAC /* WeChatEyeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatEyeView.h; sourceTree = "<group>"; };
+		A989F2731FECFB9C0085CBAC /* CASharpLayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASharpLayerListViewController.m; sourceTree = "<group>"; };
+		A989F2741FECFB9C0085CBAC /* CircleShapeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleShapeAnimationViewController.m; sourceTree = "<group>"; };
+		A989F2751FECFB9C0085CBAC /* WeChatEyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatEyeViewController.h; sourceTree = "<group>"; };
+		A989F2761FECFB9C0085CBAC /* SinOrCosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinOrCosViewController.m; sourceTree = "<group>"; };
+		A989F2771FECFB9C0085CBAC /* DrawShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawShapeViewController.h; sourceTree = "<group>"; };
+		A989F2781FECFB9C0085CBAC /* CASharpLayerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASharpLayerListViewController.h; sourceTree = "<group>"; };
+		A989F2791FECFB9C0085CBAC /* WeChatEyeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatEyeView.m; sourceTree = "<group>"; };
+		A989F27A1FECFB9C0085CBAC /* SimpleShapeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleShapeAnimationViewController.h; sourceTree = "<group>"; };
+		A989F27B1FECFB9C0085CBAC /* WeChatEyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatEyeViewController.m; sourceTree = "<group>"; };
+		A989F27C1FECFB9C0085CBAC /* CircleShapeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleShapeAnimationViewController.h; sourceTree = "<group>"; };
+		A989F27D1FECFB9C0085CBAC /* MainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainListViewController.m; sourceTree = "<group>"; };
+		A989F27F1FECFB9C0085CBAC /* DynamicBasicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicBasicListViewController.m; sourceTree = "<group>"; };
+		A989F2821FECFB9C0085CBAC /* SZGravityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGravityViewController.h; sourceTree = "<group>"; };
+		A989F2831FECFB9C0085CBAC /* SZGravityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGravityViewController.m; sourceTree = "<group>"; };
+		A989F2851FECFB9C0085CBAC /* SZComprehensiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZComprehensiveViewController.h; sourceTree = "<group>"; };
+		A989F2861FECFB9C0085CBAC /* SZComprehensiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZComprehensiveViewController.m; sourceTree = "<group>"; };
+		A989F2881FECFB9C0085CBAC /* SZSnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZSnapViewController.m; sourceTree = "<group>"; };
+		A989F2891FECFB9C0085CBAC /* SZSnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZSnapViewController.h; sourceTree = "<group>"; };
+		A989F28B1FECFB9C0085CBAC /* SZCollisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCollisionViewController.m; sourceTree = "<group>"; };
+		A989F28C1FECFB9C0085CBAC /* SZCollisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCollisionViewController.h; sourceTree = "<group>"; };
+		A989F28E1FECFB9C0085CBAC /* SZFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZFieldViewController.h; sourceTree = "<group>"; };
+		A989F28F1FECFB9C0085CBAC /* SZFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZFieldViewController.m; sourceTree = "<group>"; };
+		A989F2911FECFB9C0085CBAC /* SZSpringsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZSpringsViewController.h; sourceTree = "<group>"; };
+		A989F2921FECFB9C0085CBAC /* SZSpringsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZSpringsViewController.m; sourceTree = "<group>"; };
+		A989F2941FECFB9C0085CBAC /* SZPropertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZPropertyViewController.m; sourceTree = "<group>"; };
+		A989F2951FECFB9C0085CBAC /* SZPropertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZPropertyViewController.h; sourceTree = "<group>"; };
+		A989F2971FECFB9C0085CBAC /* SZPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZPushViewController.m; sourceTree = "<group>"; };
+		A989F2981FECFB9C0085CBAC /* SZPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZPushViewController.h; sourceTree = "<group>"; };
+		A989F29A1FECFB9C0085CBAC /* MenuEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuEffectViewController.h; sourceTree = "<group>"; };
+		A989F29B1FECFB9C0085CBAC /* MenuEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuEffectViewController.m; sourceTree = "<group>"; };
+		A989F29D1FECFB9C0085CBAC /* SZAttachmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZAttachmentViewController.h; sourceTree = "<group>"; };
+		A989F29E1FECFB9C0085CBAC /* SZAttachmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZAttachmentViewController.m; sourceTree = "<group>"; };
+		A989F29F1FECFB9C0085CBAC /* DynamicBasicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicBasicListViewController.h; sourceTree = "<group>"; };
+		A989F2A11FECFB9C0085CBAC /* CoreAnimationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationListViewController.m; sourceTree = "<group>"; };
+		A989F2A31FECFB9C0085CBAC /* SZSpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZSpringAnimationViewController.h; sourceTree = "<group>"; };
+		A989F2A41FECFB9C0085CBAC /* SZSpringAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZSpringAnimationViewController.m; sourceTree = "<group>"; };
+		A989F2A61FECFB9C0085CBAC /* SZBasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBasicAnimationViewController.m; sourceTree = "<group>"; };
+		A989F2A71FECFB9C0085CBAC /* SZBasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBasicAnimationViewController.h; sourceTree = "<group>"; };
+		A989F2A91FECFB9C0085CBAC /* SZKeyFrameAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZKeyFrameAnimationViewController.h; sourceTree = "<group>"; };
+		A989F2AA1FECFB9C0085CBAC /* SZKeyFrameAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZKeyFrameAnimationViewController.m; sourceTree = "<group>"; };
+		A989F2AC1FECFB9C0085CBAC /* SZAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZAnimationView.m; sourceTree = "<group>"; };
+		A989F2AD1FECFB9C0085CBAC /* SZRectangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZRectangleLayer.m; sourceTree = "<group>"; };
+		A989F2AE1FECFB9C0085CBAC /* SZCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCircleLayer.m; sourceTree = "<group>"; };
+		A989F2AF1FECFB9C0085CBAC /* SZTriangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTriangleLayer.m; sourceTree = "<group>"; };
+		A989F2B01FECFB9C0085CBAC /* SZWaterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZWaterLayer.h; sourceTree = "<group>"; };
+		A989F2B11FECFB9C0085CBAC /* SZComplexAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZComplexAnimationViewController.h; sourceTree = "<group>"; };
+		A989F2B21FECFB9C0085CBAC /* SZCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCircleLayer.h; sourceTree = "<group>"; };
+		A989F2B31FECFB9C0085CBAC /* SZRectangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZRectangleLayer.h; sourceTree = "<group>"; };
+		A989F2B41FECFB9C0085CBAC /* SZAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZAnimationView.h; sourceTree = "<group>"; };
+		A989F2B51FECFB9C0085CBAC /* SZWaterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZWaterLayer.m; sourceTree = "<group>"; };
+		A989F2B61FECFB9C0085CBAC /* SZTriangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTriangleLayer.h; sourceTree = "<group>"; };
+		A989F2B71FECFB9C0085CBAC /* SZComplexAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZComplexAnimationViewController.m; sourceTree = "<group>"; };
+		A989F2B91FECFB9C0085CBAC /* SZCATransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCATransitionViewController.h; sourceTree = "<group>"; };
+		A989F2BA1FECFB9C0085CBAC /* SZCATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCATransitionViewController.m; sourceTree = "<group>"; };
+		A989F2BB1FECFB9C0085CBAC /* CoreAnimationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationListViewController.h; sourceTree = "<group>"; };
+		A989F2BD1FECFB9C0085CBAC /* SZCAGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCAGroupViewController.h; sourceTree = "<group>"; };
+		A989F2BE1FECFB9C0085CBAC /* SZCAGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCAGroupViewController.m; sourceTree = "<group>"; };
+		A989F2C01FECFB9D0085CBAC /* WaveLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveLoadingViewController.h; sourceTree = "<group>"; };
+		A989F2C11FECFB9D0085CBAC /* WaveLoadingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveLoadingListViewController.h; sourceTree = "<group>"; };
+		A989F2C21FECFB9D0085CBAC /* MatchManViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchManViewController.h; sourceTree = "<group>"; };
+		A989F2C31FECFB9D0085CBAC /* WaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveViewController.h; sourceTree = "<group>"; };
+		A989F2C41FECFB9D0085CBAC /* WaveLoadingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveLoadingListViewController.m; sourceTree = "<group>"; };
+		A989F2C51FECFB9D0085CBAC /* WaveLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveLoadingViewController.m; sourceTree = "<group>"; };
+		A989F2C71FECFB9D0085CBAC /* SZWaveLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZWaveLoadingView.h; sourceTree = "<group>"; };
+		A989F2C81FECFB9D0085CBAC /* SZWaveLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZWaveLoadingView.m; sourceTree = "<group>"; };
+		A989F2C91FECFB9D0085CBAC /* WaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveViewController.m; sourceTree = "<group>"; };
+		A989F2CA1FECFB9D0085CBAC /* MatchManViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchManViewController.m; sourceTree = "<group>"; };
+		A989F2CB1FECFB9D0085CBAC /* MainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainListViewController.h; sourceTree = "<group>"; };
+		A989F2CD1FECFB9D0085CBAC /* WaveProgressListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveProgressListViewController.m; sourceTree = "<group>"; };
+		A989F2CE1FECFB9D0085CBAC /* WaveProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveProgressViewController.h; sourceTree = "<group>"; };
+		A989F2CF1FECFB9D0085CBAC /* TieBaLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TieBaLoadingViewController.m; sourceTree = "<group>"; };
+		A989F2D01FECFB9D0085CBAC /* WaveProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveProgressViewController.m; sourceTree = "<group>"; };
+		A989F2D11FECFB9D0085CBAC /* WaveProgressListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveProgressListViewController.h; sourceTree = "<group>"; };
+		A989F2D31FECFB9D0085CBAC /* SZTieBaLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTieBaLoading.h; sourceTree = "<group>"; };
+		A989F2D51FECFB9D0085CBAC /* explain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explain.png; sourceTree = "<group>"; };
+		A989F2D61FECFB9D0085CBAC /* gift.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift.gif; sourceTree = "<group>"; };
+		A989F2D71FECFB9D0085CBAC /* SZTieBaLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTieBaLoading.m; sourceTree = "<group>"; };
+		A989F2D91FECFB9D0085CBAC /* SZWaveProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZWaveProgress.h; sourceTree = "<group>"; };
+		A989F2DA1FECFB9D0085CBAC /* SZWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZWave.m; sourceTree = "<group>"; };
+		A989F2DB1FECFB9D0085CBAC /* SZWaveProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZWaveProgress.m; sourceTree = "<group>"; };
+		A989F2DC1FECFB9D0085CBAC /* SZWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZWave.h; sourceTree = "<group>"; };
+		A989F2DD1FECFB9D0085CBAC /* TieBaLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TieBaLoadingViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A989F2361FECFA970085CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989F24E1FECFA980085CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989F2591FECFA980085CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A989F2301FECFA970085CBAC = {
+			isa = PBXGroup;
+			children = (
+				A989F23B1FECFA970085CBAC /* SZ_Animation_Practice_OC */,
+				A989F2541FECFA980085CBAC /* SZ_Animation_Practice_OCTests */,
+				A989F25F1FECFA980085CBAC /* SZ_Animation_Practice_OCUITests */,
+				A989F23A1FECFA970085CBAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A989F23A1FECFA970085CBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2391FECFA970085CBAC /* SZ_Animation_Practice_OC.app */,
+				A989F2511FECFA980085CBAC /* SZ_Animation_Practice_OCTests.xctest */,
+				A989F25C1FECFA980085CBAC /* SZ_Animation_Practice_OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A989F23B1FECFA970085CBAC /* SZ_Animation_Practice_OC */ = {
+			isa = PBXGroup;
+			children = (
+				A989F26E1FECFB9C0085CBAC /* CASharpLayer */,
+				A989F2A01FECFB9C0085CBAC /* CoreAnimationDemo */,
+				A989F27E1FECFB9C0085CBAC /* UIKitDynamic Demo */,
+				A989F2BF1FECFB9D0085CBAC /* WaveLoading */,
+				A989F2CC1FECFB9D0085CBAC /* WaveProgress */,
+				A989F23C1FECFA970085CBAC /* AppDelegate.h */,
+				A989F23D1FECFA970085CBAC /* AppDelegate.m */,
+				A989F2CB1FECFB9D0085CBAC /* MainListViewController.h */,
+				A989F27D1FECFB9C0085CBAC /* MainListViewController.m */,
+				A989F2451FECFA970085CBAC /* Assets.xcassets */,
+				A989F2471FECFA970085CBAC /* LaunchScreen.storyboard */,
+				A989F24A1FECFA970085CBAC /* Info.plist */,
+				A989F24B1FECFA970085CBAC /* main.m */,
+			);
+			path = SZ_Animation_Practice_OC;
+			sourceTree = "<group>";
+		};
+		A989F2541FECFA980085CBAC /* SZ_Animation_Practice_OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2551FECFA980085CBAC /* SZ_Animation_Practice_OCTests.m */,
+				A989F2571FECFA980085CBAC /* Info.plist */,
+			);
+			path = SZ_Animation_Practice_OCTests;
+			sourceTree = "<group>";
+		};
+		A989F25F1FECFA980085CBAC /* SZ_Animation_Practice_OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2601FECFA980085CBAC /* SZ_Animation_Practice_OCUITests.m */,
+				A989F2621FECFA980085CBAC /* Info.plist */,
+			);
+			path = SZ_Animation_Practice_OCUITests;
+			sourceTree = "<group>";
+		};
+		A989F26E1FECFB9C0085CBAC /* CASharpLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A989F26F1FECFB9C0085CBAC /* DrawShapeViewController.m */,
+				A989F2701FECFB9C0085CBAC /* SinOrCosViewController.h */,
+				A989F2711FECFB9C0085CBAC /* SimpleShapeAnimationViewController.m */,
+				A989F2721FECFB9C0085CBAC /* WeChatEyeView.h */,
+				A989F2731FECFB9C0085CBAC /* CASharpLayerListViewController.m */,
+				A989F2741FECFB9C0085CBAC /* CircleShapeAnimationViewController.m */,
+				A989F2751FECFB9C0085CBAC /* WeChatEyeViewController.h */,
+				A989F2761FECFB9C0085CBAC /* SinOrCosViewController.m */,
+				A989F2771FECFB9C0085CBAC /* DrawShapeViewController.h */,
+				A989F2781FECFB9C0085CBAC /* CASharpLayerListViewController.h */,
+				A989F2791FECFB9C0085CBAC /* WeChatEyeView.m */,
+				A989F27A1FECFB9C0085CBAC /* SimpleShapeAnimationViewController.h */,
+				A989F27B1FECFB9C0085CBAC /* WeChatEyeViewController.m */,
+				A989F27C1FECFB9C0085CBAC /* CircleShapeAnimationViewController.h */,
+			);
+			path = CASharpLayer;
+			sourceTree = "<group>";
+		};
+		A989F27E1FECFB9C0085CBAC /* UIKitDynamic Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A989F27F1FECFB9C0085CBAC /* DynamicBasicListViewController.m */,
+				A989F2801FECFB9C0085CBAC /* ChildViewControllers */,
+				A989F29F1FECFB9C0085CBAC /* DynamicBasicListViewController.h */,
+			);
+			path = "UIKitDynamic Demo";
+			sourceTree = "<group>";
+		};
+		A989F2801FECFB9C0085CBAC /* ChildViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2811FECFB9C0085CBAC /* Gravity */,
+				A989F2841FECFB9C0085CBAC /* Comprehensive */,
+				A989F2871FECFB9C0085CBAC /* Snaps */,
+				A989F28A1FECFB9C0085CBAC /* Collisions */,
+				A989F28D1FECFB9C0085CBAC /* Field */,
+				A989F2901FECFB9C0085CBAC /* Springs */,
+				A989F2931FECFB9C0085CBAC /* Properties */,
+				A989F2961FECFB9C0085CBAC /* Forces */,
+				A989F2991FECFB9C0085CBAC /* MenuEffect */,
+				A989F29C1FECFB9C0085CBAC /* Attachments */,
+			);
+			path = ChildViewControllers;
+			sourceTree = "<group>";
+		};
+		A989F2811FECFB9C0085CBAC /* Gravity */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2821FECFB9C0085CBAC /* SZGravityViewController.h */,
+				A989F2831FECFB9C0085CBAC /* SZGravityViewController.m */,
+			);
+			path = Gravity;
+			sourceTree = "<group>";
+		};
+		A989F2841FECFB9C0085CBAC /* Comprehensive */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2851FECFB9C0085CBAC /* SZComprehensiveViewController.h */,
+				A989F2861FECFB9C0085CBAC /* SZComprehensiveViewController.m */,
+			);
+			path = Comprehensive;
+			sourceTree = "<group>";
+		};
+		A989F2871FECFB9C0085CBAC /* Snaps */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2881FECFB9C0085CBAC /* SZSnapViewController.m */,
+				A989F2891FECFB9C0085CBAC /* SZSnapViewController.h */,
+			);
+			path = Snaps;
+			sourceTree = "<group>";
+		};
+		A989F28A1FECFB9C0085CBAC /* Collisions */ = {
+			isa = PBXGroup;
+			children = (
+				A989F28B1FECFB9C0085CBAC /* SZCollisionViewController.m */,
+				A989F28C1FECFB9C0085CBAC /* SZCollisionViewController.h */,
+			);
+			path = Collisions;
+			sourceTree = "<group>";
+		};
+		A989F28D1FECFB9C0085CBAC /* Field */ = {
+			isa = PBXGroup;
+			children = (
+				A989F28E1FECFB9C0085CBAC /* SZFieldViewController.h */,
+				A989F28F1FECFB9C0085CBAC /* SZFieldViewController.m */,
+			);
+			path = Field;
+			sourceTree = "<group>";
+		};
+		A989F2901FECFB9C0085CBAC /* Springs */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2911FECFB9C0085CBAC /* SZSpringsViewController.h */,
+				A989F2921FECFB9C0085CBAC /* SZSpringsViewController.m */,
+			);
+			path = Springs;
+			sourceTree = "<group>";
+		};
+		A989F2931FECFB9C0085CBAC /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2941FECFB9C0085CBAC /* SZPropertyViewController.m */,
+				A989F2951FECFB9C0085CBAC /* SZPropertyViewController.h */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		A989F2961FECFB9C0085CBAC /* Forces */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2971FECFB9C0085CBAC /* SZPushViewController.m */,
+				A989F2981FECFB9C0085CBAC /* SZPushViewController.h */,
+			);
+			path = Forces;
+			sourceTree = "<group>";
+		};
+		A989F2991FECFB9C0085CBAC /* MenuEffect */ = {
+			isa = PBXGroup;
+			children = (
+				A989F29A1FECFB9C0085CBAC /* MenuEffectViewController.h */,
+				A989F29B1FECFB9C0085CBAC /* MenuEffectViewController.m */,
+			);
+			path = MenuEffect;
+			sourceTree = "<group>";
+		};
+		A989F29C1FECFB9C0085CBAC /* Attachments */ = {
+			isa = PBXGroup;
+			children = (
+				A989F29D1FECFB9C0085CBAC /* SZAttachmentViewController.h */,
+				A989F29E1FECFB9C0085CBAC /* SZAttachmentViewController.m */,
+			);
+			path = Attachments;
+			sourceTree = "<group>";
+		};
+		A989F2A01FECFB9C0085CBAC /* CoreAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2A11FECFB9C0085CBAC /* CoreAnimationListViewController.m */,
+				A989F2A21FECFB9C0085CBAC /* CASpringAnimation */,
+				A989F2A51FECFB9C0085CBAC /* CABasicAnimation */,
+				A989F2A81FECFB9C0085CBAC /* CAKeyFrameAnimation */,
+				A989F2AB1FECFB9C0085CBAC /* ComplexAnimation */,
+				A989F2B81FECFB9C0085CBAC /* CATransitionAnimation */,
+				A989F2BB1FECFB9C0085CBAC /* CoreAnimationListViewController.h */,
+				A989F2BC1FECFB9C0085CBAC /* CAGroupAnimation */,
+			);
+			path = CoreAnimationDemo;
+			sourceTree = "<group>";
+		};
+		A989F2A21FECFB9C0085CBAC /* CASpringAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2A31FECFB9C0085CBAC /* SZSpringAnimationViewController.h */,
+				A989F2A41FECFB9C0085CBAC /* SZSpringAnimationViewController.m */,
+			);
+			path = CASpringAnimation;
+			sourceTree = "<group>";
+		};
+		A989F2A51FECFB9C0085CBAC /* CABasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2A61FECFB9C0085CBAC /* SZBasicAnimationViewController.m */,
+				A989F2A71FECFB9C0085CBAC /* SZBasicAnimationViewController.h */,
+			);
+			path = CABasicAnimation;
+			sourceTree = "<group>";
+		};
+		A989F2A81FECFB9C0085CBAC /* CAKeyFrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2A91FECFB9C0085CBAC /* SZKeyFrameAnimationViewController.h */,
+				A989F2AA1FECFB9C0085CBAC /* SZKeyFrameAnimationViewController.m */,
+			);
+			path = CAKeyFrameAnimation;
+			sourceTree = "<group>";
+		};
+		A989F2AB1FECFB9C0085CBAC /* ComplexAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2AC1FECFB9C0085CBAC /* SZAnimationView.m */,
+				A989F2AD1FECFB9C0085CBAC /* SZRectangleLayer.m */,
+				A989F2AE1FECFB9C0085CBAC /* SZCircleLayer.m */,
+				A989F2AF1FECFB9C0085CBAC /* SZTriangleLayer.m */,
+				A989F2B01FECFB9C0085CBAC /* SZWaterLayer.h */,
+				A989F2B11FECFB9C0085CBAC /* SZComplexAnimationViewController.h */,
+				A989F2B21FECFB9C0085CBAC /* SZCircleLayer.h */,
+				A989F2B31FECFB9C0085CBAC /* SZRectangleLayer.h */,
+				A989F2B41FECFB9C0085CBAC /* SZAnimationView.h */,
+				A989F2B51FECFB9C0085CBAC /* SZWaterLayer.m */,
+				A989F2B61FECFB9C0085CBAC /* SZTriangleLayer.h */,
+				A989F2B71FECFB9C0085CBAC /* SZComplexAnimationViewController.m */,
+			);
+			path = ComplexAnimation;
+			sourceTree = "<group>";
+		};
+		A989F2B81FECFB9C0085CBAC /* CATransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2B91FECFB9C0085CBAC /* SZCATransitionViewController.h */,
+				A989F2BA1FECFB9C0085CBAC /* SZCATransitionViewController.m */,
+			);
+			path = CATransitionAnimation;
+			sourceTree = "<group>";
+		};
+		A989F2BC1FECFB9C0085CBAC /* CAGroupAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2BD1FECFB9C0085CBAC /* SZCAGroupViewController.h */,
+				A989F2BE1FECFB9C0085CBAC /* SZCAGroupViewController.m */,
+			);
+			path = CAGroupAnimation;
+			sourceTree = "<group>";
+		};
+		A989F2BF1FECFB9D0085CBAC /* WaveLoading */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2C01FECFB9D0085CBAC /* WaveLoadingViewController.h */,
+				A989F2C11FECFB9D0085CBAC /* WaveLoadingListViewController.h */,
+				A989F2C21FECFB9D0085CBAC /* MatchManViewController.h */,
+				A989F2C31FECFB9D0085CBAC /* WaveViewController.h */,
+				A989F2C41FECFB9D0085CBAC /* WaveLoadingListViewController.m */,
+				A989F2C51FECFB9D0085CBAC /* WaveLoadingViewController.m */,
+				A989F2C61FECFB9D0085CBAC /* WaveLoading */,
+				A989F2C91FECFB9D0085CBAC /* WaveViewController.m */,
+				A989F2CA1FECFB9D0085CBAC /* MatchManViewController.m */,
+			);
+			path = WaveLoading;
+			sourceTree = "<group>";
+		};
+		A989F2C61FECFB9D0085CBAC /* WaveLoading */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2C71FECFB9D0085CBAC /* SZWaveLoadingView.h */,
+				A989F2C81FECFB9D0085CBAC /* SZWaveLoadingView.m */,
+			);
+			path = WaveLoading;
+			sourceTree = "<group>";
+		};
+		A989F2CC1FECFB9D0085CBAC /* WaveProgress */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2CD1FECFB9D0085CBAC /* WaveProgressListViewController.m */,
+				A989F2CE1FECFB9D0085CBAC /* WaveProgressViewController.h */,
+				A989F2CF1FECFB9D0085CBAC /* TieBaLoadingViewController.m */,
+				A989F2D01FECFB9D0085CBAC /* WaveProgressViewController.m */,
+				A989F2D11FECFB9D0085CBAC /* WaveProgressListViewController.h */,
+				A989F2D21FECFB9D0085CBAC /* TieBaLoading */,
+				A989F2D81FECFB9D0085CBAC /* WaveProgress */,
+				A989F2DD1FECFB9D0085CBAC /* TieBaLoadingViewController.h */,
+			);
+			path = WaveProgress;
+			sourceTree = "<group>";
+		};
+		A989F2D21FECFB9D0085CBAC /* TieBaLoading */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2D31FECFB9D0085CBAC /* SZTieBaLoading.h */,
+				A989F2D41FECFB9D0085CBAC /* Images */,
+				A989F2D71FECFB9D0085CBAC /* SZTieBaLoading.m */,
+			);
+			path = TieBaLoading;
+			sourceTree = "<group>";
+		};
+		A989F2D41FECFB9D0085CBAC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2D51FECFB9D0085CBAC /* explain.png */,
+				A989F2D61FECFB9D0085CBAC /* gift.gif */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A989F2D81FECFB9D0085CBAC /* WaveProgress */ = {
+			isa = PBXGroup;
+			children = (
+				A989F2D91FECFB9D0085CBAC /* SZWaveProgress.h */,
+				A989F2DA1FECFB9D0085CBAC /* SZWave.m */,
+				A989F2DB1FECFB9D0085CBAC /* SZWaveProgress.m */,
+				A989F2DC1FECFB9D0085CBAC /* SZWave.h */,
+			);
+			path = WaveProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A989F2381FECFA970085CBAC /* SZ_Animation_Practice_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A989F2651FECFA980085CBAC /* Build configuration list for PBXNativeTarget "SZ_Animation_Practice_OC" */;
+			buildPhases = (
+				A989F2351FECFA970085CBAC /* Sources */,
+				A989F2361FECFA970085CBAC /* Frameworks */,
+				A989F2371FECFA970085CBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZ_Animation_Practice_OC;
+			productName = SZ_Animation_Practice_OC;
+			productReference = A989F2391FECFA970085CBAC /* SZ_Animation_Practice_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A989F2501FECFA980085CBAC /* SZ_Animation_Practice_OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A989F2681FECFA980085CBAC /* Build configuration list for PBXNativeTarget "SZ_Animation_Practice_OCTests" */;
+			buildPhases = (
+				A989F24D1FECFA980085CBAC /* Sources */,
+				A989F24E1FECFA980085CBAC /* Frameworks */,
+				A989F24F1FECFA980085CBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A989F2531FECFA980085CBAC /* PBXTargetDependency */,
+			);
+			name = SZ_Animation_Practice_OCTests;
+			productName = SZ_Animation_Practice_OCTests;
+			productReference = A989F2511FECFA980085CBAC /* SZ_Animation_Practice_OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A989F25B1FECFA980085CBAC /* SZ_Animation_Practice_OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A989F26B1FECFA980085CBAC /* Build configuration list for PBXNativeTarget "SZ_Animation_Practice_OCUITests" */;
+			buildPhases = (
+				A989F2581FECFA980085CBAC /* Sources */,
+				A989F2591FECFA980085CBAC /* Frameworks */,
+				A989F25A1FECFA980085CBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A989F25E1FECFA980085CBAC /* PBXTargetDependency */,
+			);
+			name = SZ_Animation_Practice_OCUITests;
+			productName = SZ_Animation_Practice_OCUITests;
+			productReference = A989F25C1FECFA980085CBAC /* SZ_Animation_Practice_OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A989F2311FECFA970085CBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SZ;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yanl;
+				TargetAttributes = {
+					A989F2381FECFA970085CBAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A989F2501FECFA980085CBAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A989F2381FECFA970085CBAC;
+					};
+					A989F25B1FECFA980085CBAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A989F2381FECFA970085CBAC;
+					};
+				};
+			};
+			buildConfigurationList = A989F2341FECFA970085CBAC /* Build configuration list for PBXProject "SZ_Animation_Practice_OC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A989F2301FECFA970085CBAC;
+			productRefGroup = A989F23A1FECFA970085CBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A989F2381FECFA970085CBAC /* SZ_Animation_Practice_OC */,
+				A989F2501FECFA980085CBAC /* SZ_Animation_Practice_OCTests */,
+				A989F25B1FECFA980085CBAC /* SZ_Animation_Practice_OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A989F2371FECFA970085CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A989F2491FECFA970085CBAC /* LaunchScreen.storyboard in Resources */,
+				A989F2461FECFA970085CBAC /* Assets.xcassets in Resources */,
+				A989F3061FECFB9D0085CBAC /* gift.gif in Resources */,
+				A989F3051FECFB9D0085CBAC /* explain.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989F24F1FECFA980085CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989F25A1FECFA980085CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A989F2351FECFA970085CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A989F3021FECFB9D0085CBAC /* WaveProgressListViewController.m in Sources */,
+				A989F3071FECFB9D0085CBAC /* SZTieBaLoading.m in Sources */,
+				A989F3081FECFB9D0085CBAC /* SZWave.m in Sources */,
+				A989F2E81FECFB9D0085CBAC /* SZComprehensiveViewController.m in Sources */,
+				A989F2F81FECFB9D0085CBAC /* SZTriangleLayer.m in Sources */,
+				A989F2EE1FECFB9D0085CBAC /* SZPushViewController.m in Sources */,
+				A989F2F71FECFB9D0085CBAC /* SZCircleLayer.m in Sources */,
+				A989F2FA1FECFB9D0085CBAC /* SZComplexAnimationViewController.m in Sources */,
+				A989F2F31FECFB9D0085CBAC /* SZBasicAnimationViewController.m in Sources */,
+				A989F2E01FECFB9D0085CBAC /* CASharpLayerListViewController.m in Sources */,
+				A989F2EB1FECFB9D0085CBAC /* SZFieldViewController.m in Sources */,
+				A989F2F01FECFB9D0085CBAC /* SZAttachmentViewController.m in Sources */,
+				A989F2E41FECFB9D0085CBAC /* WeChatEyeViewController.m in Sources */,
+				A989F2FD1FECFB9D0085CBAC /* WaveLoadingListViewController.m in Sources */,
+				A989F2FC1FECFB9D0085CBAC /* SZCAGroupViewController.m in Sources */,
+				A989F2E21FECFB9D0085CBAC /* SinOrCosViewController.m in Sources */,
+				A989F2E11FECFB9D0085CBAC /* CircleShapeAnimationViewController.m in Sources */,
+				A989F2F61FECFB9D0085CBAC /* SZRectangleLayer.m in Sources */,
+				A989F2E91FECFB9D0085CBAC /* SZSnapViewController.m in Sources */,
+				A989F2EA1FECFB9D0085CBAC /* SZCollisionViewController.m in Sources */,
+				A989F3091FECFB9D0085CBAC /* SZWaveProgress.m in Sources */,
+				A989F2F91FECFB9D0085CBAC /* SZWaterLayer.m in Sources */,
+				A989F3001FECFB9D0085CBAC /* WaveViewController.m in Sources */,
+				A989F24C1FECFA970085CBAC /* main.m in Sources */,
+				A989F2E31FECFB9D0085CBAC /* WeChatEyeView.m in Sources */,
+				A989F3011FECFB9D0085CBAC /* MatchManViewController.m in Sources */,
+				A989F2FE1FECFB9D0085CBAC /* WaveLoadingViewController.m in Sources */,
+				A989F2EC1FECFB9D0085CBAC /* SZSpringsViewController.m in Sources */,
+				A989F2DF1FECFB9D0085CBAC /* SimpleShapeAnimationViewController.m in Sources */,
+				A989F2FB1FECFB9D0085CBAC /* SZCATransitionViewController.m in Sources */,
+				A989F2F21FECFB9D0085CBAC /* SZSpringAnimationViewController.m in Sources */,
+				A989F2F11FECFB9D0085CBAC /* CoreAnimationListViewController.m in Sources */,
+				A989F2ED1FECFB9D0085CBAC /* SZPropertyViewController.m in Sources */,
+				A989F3041FECFB9D0085CBAC /* WaveProgressViewController.m in Sources */,
+				A989F2E61FECFB9D0085CBAC /* DynamicBasicListViewController.m in Sources */,
+				A989F23E1FECFA970085CBAC /* AppDelegate.m in Sources */,
+				A989F2F51FECFB9D0085CBAC /* SZAnimationView.m in Sources */,
+				A989F3031FECFB9D0085CBAC /* TieBaLoadingViewController.m in Sources */,
+				A989F2DE1FECFB9D0085CBAC /* DrawShapeViewController.m in Sources */,
+				A989F2FF1FECFB9D0085CBAC /* SZWaveLoadingView.m in Sources */,
+				A989F2E71FECFB9D0085CBAC /* SZGravityViewController.m in Sources */,
+				A989F2EF1FECFB9D0085CBAC /* MenuEffectViewController.m in Sources */,
+				A989F2E51FECFB9D0085CBAC /* MainListViewController.m in Sources */,
+				A989F2F41FECFB9D0085CBAC /* SZKeyFrameAnimationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989F24D1FECFA980085CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A989F2561FECFA980085CBAC /* SZ_Animation_Practice_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989F2581FECFA980085CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A989F2611FECFA980085CBAC /* SZ_Animation_Practice_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A989F2531FECFA980085CBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A989F2381FECFA970085CBAC /* SZ_Animation_Practice_OC */;
+			targetProxy = A989F2521FECFA980085CBAC /* PBXContainerItemProxy */;
+		};
+		A989F25E1FECFA980085CBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A989F2381FECFA970085CBAC /* SZ_Animation_Practice_OC */;
+			targetProxy = A989F25D1FECFA980085CBAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A989F2471FECFA970085CBAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A989F2481FECFA970085CBAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A989F2631FECFA980085CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A989F2641FECFA980085CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A989F2661FECFA980085CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_Animation_Practice_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-Animation-Practice-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A989F2671FECFA980085CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_Animation_Practice_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-Animation-Practice-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A989F2691FECFA980085CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_Animation_Practice_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-Animation-Practice-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZ_Animation_Practice_OC.app/SZ_Animation_Practice_OC";
+			};
+			name = Debug;
+		};
+		A989F26A1FECFA980085CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_Animation_Practice_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-Animation-Practice-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZ_Animation_Practice_OC.app/SZ_Animation_Practice_OC";
+			};
+			name = Release;
+		};
+		A989F26C1FECFA980085CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_Animation_Practice_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-Animation-Practice-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SZ_Animation_Practice_OC;
+			};
+			name = Debug;
+		};
+		A989F26D1FECFA980085CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_Animation_Practice_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-Animation-Practice-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SZ_Animation_Practice_OC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A989F2341FECFA970085CBAC /* Build configuration list for PBXProject "SZ_Animation_Practice_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A989F2631FECFA980085CBAC /* Debug */,
+				A989F2641FECFA980085CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A989F2651FECFA980085CBAC /* Build configuration list for PBXNativeTarget "SZ_Animation_Practice_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A989F2661FECFA980085CBAC /* Debug */,
+				A989F2671FECFA980085CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A989F2681FECFA980085CBAC /* Build configuration list for PBXNativeTarget "SZ_Animation_Practice_OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A989F2691FECFA980085CBAC /* Debug */,
+				A989F26A1FECFA980085CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A989F26B1FECFA980085CBAC /* Build configuration list for PBXNativeTarget "SZ_Animation_Practice_OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A989F26C1FECFA980085CBAC /* Debug */,
+				A989F26D1FECFA980085CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A989F2311FECFA970085CBAC /* Project object */;
+}
