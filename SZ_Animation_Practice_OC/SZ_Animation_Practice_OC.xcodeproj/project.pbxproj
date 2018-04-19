@@ -264,20 +264,20 @@
 		A989F26E1FECFB9C0085CBAC /* CASharpLayer */ = {
 			isa = PBXGroup;
 			children = (
+				A989F2781FECFB9C0085CBAC /* CASharpLayerListViewController.h */,
+				A989F2731FECFB9C0085CBAC /* CASharpLayerListViewController.m */,
+				A989F2771FECFB9C0085CBAC /* DrawShapeViewController.h */,
 				A989F26F1FECFB9C0085CBAC /* DrawShapeViewController.m */,
 				A989F2701FECFB9C0085CBAC /* SinOrCosViewController.h */,
+				A989F2761FECFB9C0085CBAC /* SinOrCosViewController.m */,
+				A989F27A1FECFB9C0085CBAC /* SimpleShapeAnimationViewController.h */,
 				A989F2711FECFB9C0085CBAC /* SimpleShapeAnimationViewController.m */,
-				A989F2721FECFB9C0085CBAC /* WeChatEyeView.h */,
-				A989F2731FECFB9C0085CBAC /* CASharpLayerListViewController.m */,
+				A989F27C1FECFB9C0085CBAC /* CircleShapeAnimationViewController.h */,
 				A989F2741FECFB9C0085CBAC /* CircleShapeAnimationViewController.m */,
 				A989F2751FECFB9C0085CBAC /* WeChatEyeViewController.h */,
-				A989F2761FECFB9C0085CBAC /* SinOrCosViewController.m */,
-				A989F2771FECFB9C0085CBAC /* DrawShapeViewController.h */,
-				A989F2781FECFB9C0085CBAC /* CASharpLayerListViewController.h */,
-				A989F2791FECFB9C0085CBAC /* WeChatEyeView.m */,
-				A989F27A1FECFB9C0085CBAC /* SimpleShapeAnimationViewController.h */,
 				A989F27B1FECFB9C0085CBAC /* WeChatEyeViewController.m */,
-				A989F27C1FECFB9C0085CBAC /* CircleShapeAnimationViewController.h */,
+				A989F2721FECFB9C0085CBAC /* WeChatEyeView.h */,
+				A989F2791FECFB9C0085CBAC /* WeChatEyeView.m */,
 			);
 			path = CASharpLayer;
 			sourceTree = "<group>";
@@ -481,15 +481,15 @@
 		A989F2BF1FECFB9D0085CBAC /* WaveLoading */ = {
 			isa = PBXGroup;
 			children = (
-				A989F2C01FECFB9D0085CBAC /* WaveLoadingViewController.h */,
 				A989F2C11FECFB9D0085CBAC /* WaveLoadingListViewController.h */,
-				A989F2C21FECFB9D0085CBAC /* MatchManViewController.h */,
-				A989F2C31FECFB9D0085CBAC /* WaveViewController.h */,
 				A989F2C41FECFB9D0085CBAC /* WaveLoadingListViewController.m */,
+				A989F2C21FECFB9D0085CBAC /* MatchManViewController.h */,
+				A989F2CA1FECFB9D0085CBAC /* MatchManViewController.m */,
+				A989F2C31FECFB9D0085CBAC /* WaveViewController.h */,
+				A989F2C91FECFB9D0085CBAC /* WaveViewController.m */,
+				A989F2C01FECFB9D0085CBAC /* WaveLoadingViewController.h */,
 				A989F2C51FECFB9D0085CBAC /* WaveLoadingViewController.m */,
 				A989F2C61FECFB9D0085CBAC /* WaveLoading */,
-				A989F2C91FECFB9D0085CBAC /* WaveViewController.m */,
-				A989F2CA1FECFB9D0085CBAC /* MatchManViewController.m */,
 			);
 			path = WaveLoading;
 			sourceTree = "<group>";
